@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html ng-app="webcApp" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Adrian Sommeling <info@adriansommeling.com>">
+    <link rel="icon" type="image/x-icon" href="../../../favicon.ico" />
+    <title>Adrian Sommeling Tutorials</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:300,400%7CRaleway:100,400,300,500,600,700%7COpen+Sans:400,500,600">
+        <link rel="stylesheet" href="../../../css/styles-6ad4bfd455.css">
+    <!--[if lt IE 9]>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-5406926-27', 'auto');
+        ga('send', 'pageview');
+    </script>
+</head>
+<body>
+<div class="nav-container nav-container bg-light hidden-print">
+    <a id="top"></a>
+    <nav class="bg-light">
+        <div class="nav-bar">
+            <div class="module left">
+                <a href="../../../index.html">
+                    <img class="logo logo-light" alt="AStutorials" src="../../../img/logo-light.png" />
+                    <img class="logo logo-dark" alt="AStutorials" src="../../../img/logo-dark.png" />
+                </a>
+            </div>
+            <div class="module widget-handle mobile-toggle right visible-sm visible-xs">
+                <i class="ti-menu"></i>
+            </div>
+            <div class="module-group right">
+                <div class="module left">
+                    <ul class="menu">
+                        <li><a href="../../../index.html">Home</a></li>
+                        <li><a href="../../index.html">Shop</a></li>
+                                                                        
+                            <li><a href="../../../login/index.html">Log in</a></li>
+                                                <li class=""><a href="http://www.adriansommeling.com" target="_blank">adriansommeling.com</a></li>
+                    </ul>
+                </div>
+                <!--end of menu module-->
+
+                <div class="module widget-handle cart-widget-handle left">
+                                        <div class="cart">
+                        <i class="ti-bag"></i>
+                        <span class="label number">7</span>
+                        <span class="title">Shopping Cart</span>
+                    </div>
+                    <div class="function">
+
+                        
+                        <div class="widget">
+                            <h6 class="title">Shopping Cart</h6>
+                            <hr>
+                            <ul class="cart-overview">
+                                                                <li>
+                                    <a href="#">
+                                                                                    <img src="../../../uploads/shop/realistic-compositions.jpg" alt="Workshop Realistic Compositions (Basics)">
+                                                                                <div class="description">
+                                            <span class="product-title">Realistic Compositions (Basics)</span>
+                                            <span class="price number">&euro; 85.00</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                                                <li>
+                                    <a href="#">
+                                                                                    <img src="../../../uploads/shop/realistic-compositions-giants.jpg" alt="Workshop Realistic compositions Giants">
+                                                                                <div class="description">
+                                            <span class="product-title">Realistic compositions Giants</span>
+                                            <span class="price number">&euro; 85.00</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                                                <li>
+                                    <a href="#">
+                                                                                    <img src="../../../uploads/shop/Composite-set-volume1-2016.jpg" alt="Composite set Volume 1">
+                                                                                <div class="description">
+                                            <span class="product-title">Volume 1</span>
+                                            <span class="price number">&euro; 45.00</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                                                <li>
+                                    <a href="#">
+                                                                                    <img src="../../../uploads/shop/product_colorcorrection%20(1).jpg" alt="Workshop Color corrections &amp; realistic reflections">
+                                                                                <div class="description">
+                                            <span class="product-title">Color corrections &amp; realistic reflections</span>
+                                            <span class="price number">&euro; 85.00</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                                                <li>
+                                    <a href="#">
+                                                                                    <img src="../../../uploads/shop/bundel1.jpg" alt="Bundle 1: Realistic compositions basics + color corrections &amp; realistic reflections">
+                                                                                <div class="description">
+                                            <span class="product-title">Bundle 1: Realistic compositions basics + color corrections &amp; realistic reflections</span>
+                                            <span class="price number">&euro; 140.00</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                                                <li>
+                                    <a href="#">
+                                                                                    <img src="../../../uploads/shop/bundel2.jpg" alt="Bundle 2: Realistic compositions - Basics / Giants / Color corrections &amp; Realistic">
+                                                                                <div class="description">
+                                            <span class="product-title">Bundle 2: Realistic compositions - Basics / Giants / Color corrections &amp; Realistic</span>
+                                            <span class="price number">&euro; 210.00</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                                                <li>
+                                    <a href="#">
+                                                                                    <img src="../../../uploads/shop/bundel-alles.jpg" alt="Bundle 3: Realistic compositions - Basics / Giants / Color corrections &amp; Realistic + Composite set">
+                                                                                <div class="description">
+                                            <span class="product-title">Bundle 3: Realistic compositions - Basics / Giants / Color corrections &amp; Realistic + Composite set</span>
+                                            <span class="price number">&euro; 235.00</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                                            </ul>
+                            <hr>
+                            <div class="cart-controls">
+                                <a class="btn btn-sm" href="../../../cart/index.html">Cart</a>
+                                <div class="list-inline pull-right">
+                                    <span class="cart-total">Total: </span>
+                                    <span class="number">&euro; 885.00</span>
+                                </div>
+
+                                
+                            </div>
+                        </div>
+                                                <!--end of widget-->
+                    </div>
+                </div>
+            </div>
+            <!--end of module group-->
+        </div>
+    </nav>
+</div><div class="main-container">
+    <section class="page-title page-title-4 bg-secondary">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3 class="uppercase mb0">
+                        Workshop Realistic compositions Landscapes &amp; Animals
+                                            </h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="product-single">
+                            <div class="alert alert-info alert-dismissible" role="alert">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">×</span>
+            </button>
+            Item has been added to the cart
+        </div>
+                    <div class="row mb24 mb-xs-48">
+                    <div class="col-md-5 col-sm-6">
+                        <div class="image-slider slider-thumb-controls controls-inside">
+                                                        <ul class="slides">
+                                <li>
+                                    <img alt="Realistic compositions Landscapes &amp; Animals" src="../../../uploads/shop/cover-workshop-landscapes-and-animals.jpg" />
+                                </li>
+
+                            </ul>
+                        </div>
+                        <!--end of image slider-->
+                    </div>
+                    <div class="col-md-5 col-md-offset-1 col-sm-6">
+                        <div class="description">
+                            <h4 class="uppercase">Workshop Realistic compositions Landscapes &amp; Animals</h4>
+                            <div class="mb32 mb-xs-24">
+                                                                    <span class="number price">&euro; 85.00</span>
+                                
+                                                                    <span class="number price">(&plusmn; &dollar; 93.00)</span>
+                                                            </div>
+                            <p>How great is it, to create your own reality!! <br /> In earlier tutorials we worked with an existing photo as a background, but in this tutorial, we gonna create the complete scene. We create our own background, our own world :). And in this world, we gonna put some animals and my son. It wasn't easy to shoot all the animals with the light that I needed, so in this tutorial I also gonna show you how to chance the light on the animals. I am sure you will enjoy it!! ;)<br /><br />This product is a download product only.</p>
+                        </div>
+                        <hr class="mb48 mb-xs-24">
+                        <a href="../../../cart/add/11/index.html" class="btn btn-filled">Add To Cart</a>
+                        <a href="../../index.html" class="btn pull-right">Back to shop</a>
+                    </div>
+                </div>
+                <!--end of row-->
+                <div class="row">
+<div class="col-sm-12">
+<div class="tabbed-content text-tabs">
+<ul class="tabs">
+<li class="active">
+<div class="tab-title"><span>Table of content</span></div>
+<div class="tab-content">
+<table class="table table-striped table-bordered">
+<thead>
+<tr>
+<th>Chapter</th>
+<th>Topic</th>
+<th>Duration</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th scope="row">00</th>
+<td>Introduction</td>
+<td>00.01.00 min</td>
+</tr>
+<tr>
+<th scope="row">00</th>
+<td>The Photos</td>
+<td>00.13.00 min</td>
+</tr>
+<tr>
+<th scope="row">01</th>
+<td>Building of the tree</td>
+<td>00.37.00 min</td>
+</tr>
+<tr>
+<th scope="row">02</th>
+<td>Building a world around the tree</td>
+<td>00.53.00 min</td>
+</tr>
+<tr>
+<th scope="row">03</th>
+<td>Adding the Orang Utan to the scene</td>
+<td>00.22.00 min</td>
+</tr>
+<tr>
+<th scope="row">04</th>
+<td>Adding and modifying the bear</td>
+<td>00.33.00 min</td>
+</tr>
+<tr>
+<th scope="row">05</th>
+<td>The tiger on the rock</td>
+<td>00.26.00 min</td>
+</tr>
+<tr>
+<th scope="row">06</th>
+<td>Some adjustments</td>
+<td>00.08.00 min</td>
+</tr>
+<tr>
+<th scope="row">07</th>
+<td>Adding my son to the scene</td>
+<td>00.34.00 min</td>
+</tr>
+<tr>
+<th scope="row">08</th>
+<td>More adjustments and the finishing touch</td>
+<td>00.12.00 min</td>
+</tr>
+<tr>
+<th scope="row">09</th>
+<td>Extra adjustments</td>
+<td>00.16.00 min</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<footer class="footer-2 bg-dark pt0 pb40 hidden-print">
+    <div class="container">
+        <div class="row">
+            <hr class="mt0 mb40">
+        </div><!--end of row-->
+        <div class="row">
+            <div class="col-sm-4">
+                <a href="../../../index.html"><img class="image-xxs fade-half" alt="Pic" src="../../../img/logo-light.png"></a>
+                <br />
+                <a href="mailto:info@adriansommeling.com">info@adriansommeling.com</a>
+            </div>
+            <div class="col-sm-4 text-center">
+                <span class="fade-half">
+                                        &copy; Copyright 2015-2016 Adrian Sommeling - All Rights Reserved <br>
+                                        BTW nummer 1615.60.040B02 / Kvk 58754555<br>
+                    Dunanstraat 372, 2713 VG  Zoetermeer, The Netherlands
+
+                </span>
+            </div>
+            <div class="col-sm-4 text-right">
+                <ul class="list-inline social-list">
+                    <li><a href="https://twitter.com/adriansommeling" target="_blank"><i class="ti-twitter-alt"></i></a></li>
+                    <li><a href="https://www.facebook.com/adriansommeling/" target="_blank"><i class="ti-facebook"></i></a></li>
+                    <li><a href="https://www.instagram.com/adrian_sommeling/" target="_blank"><i class="ti-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div><!--end of row-->
+    </div><!--end of container-->
+</footer><script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="../../../js/scripts-f0c76793eb.js"></script>
+</body>
+</html>
+<!-- Localized -->
